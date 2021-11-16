@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#ffc1c1;
+    font-family: sans-serif;
+    outline: none;
+}
+.text{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+     
+}
+.container {
+    display: flex;
+    background-color: rgb(223, 222, 217);
+    justify-content:flex-end;
+    align-items:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    max-width: 400px;
+    border-radius: 30px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+#display{
+    text-align: right;
+    height: 90px;
+    line-height:70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    background-color: rgba(69, 131, 29, 0.226);
+    width: 320px;
+    margin-top: 4px;
+    border-radius: 30px;
+    
+}
+.buttons {
+    background-color: #d3d4d4;
+    margin-top: 5px;
+    
+    padding: 20px;
+    margin-bottom: 9px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+    border-bottom: 4px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: repeat(4,68px);
+}
+
+
+.buttons > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button{
+    border: 0.5px solid #999;
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    margin:2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 12px #ffffff,
+    5px 5px 12px rgba(0,0,0,.16);
+
+}
+
+#equal{
+    background-color:  #3bb397;
+    color: white;
+}
+
+.button:hover{
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
